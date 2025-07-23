@@ -1,0 +1,25 @@
+{
+    "output_directory": "input",
+    
+    "scraper_settings": {
+      "request_delay": [2, 5],
+      "timeout": 15,
+      "max_retries": 3,
+      "user_agents": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/120.0.0.0"
+      ]
+    },
+    
+    "logging": {
+      "level": "INFO"
+    },
+    
+    "extraction_preferences": {
+      "force_dynamic_scraping": false,
+      "extract_pdf_links": true,
+      "follow_internal_links": false,
+      "max_content_length": 100000
+    }
+  }

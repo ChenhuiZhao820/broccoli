@@ -1,0 +1,27 @@
+# Python related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# env related
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# os files
+.DS_Store
+Thumbs.db
+
+# output files directories
+output/

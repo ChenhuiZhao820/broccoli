@@ -1,0 +1,63 @@
+{
+  "competition_basic_info": {
+    "name": "INVENT",
+    "organizer": "Catalyst",
+    "partners": [
+      "Bank of Ireland"
+    ],
+    "application_status": "closed",
+    "deadline": null
+  },
+  "target_participants": {
+    "description": "innovators and entrepreneurs",
+    "criteria": [
+      "You have an innovative solution to a problem.",
+      "You’re a student completing a course project that you know is the next big thing.",
+      "You have been working on cutting edge research and now want to commercialise.",
+      "You have a side project and are ready to take the next step."
+    ]
+  },
+  "competition_focus": {
+    "stage_preference": null,
+    "industry_focus": null,
+    "innovation_type": "innovative solution"
+  },
+  "benefits_and_prizes": {
+    "prize_fund": "£55,000",
+    "benefits": [
+      "Market validate your idea",
+      "Unlock a quality network of like-minded peers and mentors",
+      "Fuel your growth",
+      "Get support with your pitch",
+      "Gain high profile exposure and recognition",
+      "Be in with a chance of winning a share of the £55,000 prize fund",
+      "Join us at the INVENT Awards 2025",
+      "Finalist Showcase and Drinks Reception",
+      "The INVENT Awards including category and overall winner announcements",
+      "Meet the Student Invent 25 cohort",
+      "A 3 course meal featuring local NI produce accompanied with wine"
+    ],
+    "support_offered": [
+      "international platform and support to make the greatest impact",
+      "Market validation",
+      "Mentorship network",
+      "Pitch support",
+      "Exposure and recognition"
+    ]
+  },
+  "evaluation_criteria": {
+    "explicit_criteria": null,
+    "implied_preferences": [
+      "Innovation",
+      "Market potential",
+      "Growth potential",
+      "Ability to pitch",
+      "Commercialisation readiness"
+    ]
+  },
+  "metadata": {
+    "confidence_score": 0.75,
+    "parsing_timestamp": "2025-07-23T02:08:55.914094",
+    "raw_content_length": 5488
+  }
+}

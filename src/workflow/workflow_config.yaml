@@ -1,0 +1,65 @@
+# Workflow Configuration for Competition Application Automation
+
+# Directory paths
+paths:
+  input_base: "input"
+  output_base: "output"
+  prompt_template: "src/workflow/prompt.md"
+  reference_docs_base: "input/reference_docs"
+
+# Reference documentation files
+reference_docs:
+  project_overview:
+    - "input/reference_docs/deskie product oveview.md"
+    - "input/reference_docs/mvp document.md"
+    - "input/reference_docs/sample Q&A INVENT.md"
+
+  application_question:
+  # REPLACE "INVENT" WITH THE ACTUAL COMPETITON NAME YOU USED!!
+    - "input/INVENT/questions.md"
+  competition_information:
+  # REPLACE "INVENT" WITH THE ACTUAL COMPETITON NAME YOU USED!!
+    - "input/INVENT/competition_info/parsed_competition_info.json"
+   
+
+# Scraper settings
+scraper_settings:
+  request_delay: [2, 5]
+  timeout: 15
+  max_retries: 3
+  user_agents:
+    - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+# Content parsing settings
+parser_settings:
+  confidence_threshold: 0.5
+  use_llm_parsing: true
+  fallback_to_rules: true
+
+# LLM settings
+llm_settings:
+  provider: "monica"
+  base_url: "https://openapi.monica.im/v1"
+
+
+
+  #!!!!!----------------CHANGE TO YOUR OWN API KEY--------------------!!!!!
+  api_key: "sk-a7ciMIHLx5U1meTLsymaO1MPuQUlQtnftFUjDqpBEYDQ1t8pVAcaLbtgc4n-S0li4jOLh6ud6hbd_1_bw4VNuzsdjmuF"
+
+
+
+  model: "gpt-4.1"
+  temperature: 0.7
+  max_tokens: 6000
+  timeout: 30
+
+# Logging
+logging:
+  level: "INFO"
+  
+# Output format settings
+output_settings:
+  format: "markdown"
+  include_metadata: true
+  include_timestamp: true

@@ -1,0 +1,28 @@
+2025-07-23 00:12:37,712 - __main__ - INFO - Starting scraping workflow for: https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:12:37,713 - __main__ - INFO - Output directory: input\INVENT
+2025-07-23 00:12:37,713 - scraper.web_scraper - INFO - Beginning scraping workflow for: https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:12:37,713 - scraper.web_scraper - INFO - Starting static scraping for: https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:12:39,426 - scraper.web_scraper - INFO - Successfully scraped 5488 characters from https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:12:39,426 - scraper.web_scraper - INFO - Static scraping successful and content appears sufficient
+2025-07-23 00:12:39,428 - __main__ - INFO - Scraping results saved to input\INVENT
+2025-07-23 00:12:39,428 - __main__ - INFO -  Scraping completed successfully
+2025-07-23 00:23:40,602 - __main__ - INFO - Starting scraping workflow for: https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:23:40,602 - __main__ - INFO - Output directory: input\INVENT\competition_info
+2025-07-23 00:23:40,603 - scraper.web_scraper - INFO - Beginning scraping workflow for: https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:23:40,603 - scraper.web_scraper - INFO - Starting static scraping for: https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:23:40,810 - scraper.web_scraper - WARNING - Static scraping attempt 1 failed for https://wearecatalyst.org/programmes/invent/: 500 Server Error: Internal Server Error for url: https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:23:40,811 - scraper.web_scraper - ERROR - Unexpected error during static scraping: 'list' object cannot be interpreted as an integer
+2025-07-23 00:23:40,811 - scraper.web_scraper - INFO - Static scraping insufficient, attempting dynamic scraping
+2025-07-23 00:23:40,811 - scraper.web_scraper - INFO - Starting dynamic scraping for: https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:23:46,458 - scraper.web_scraper - INFO - Successfully scraped 40 characters using dynamic method
+2025-07-23 00:23:48,556 - scraper.web_scraper - INFO - Selenium driver closed successfully
+2025-07-23 00:23:48,558 - __main__ - INFO - Scraping results saved to input\INVENT\competition_info
+2025-07-23 00:23:48,559 - __main__ - INFO -  Scraping completed successfully
+2025-07-23 00:25:02,476 - __main__ - INFO - Starting scraping workflow for: https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:25:02,477 - __main__ - INFO - Output directory: input\INVENT\competition_info
+2025-07-23 00:25:02,477 - scraper.web_scraper - INFO - Beginning scraping workflow for: https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:25:02,477 - scraper.web_scraper - INFO - Starting static scraping for: https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:25:09,896 - scraper.web_scraper - INFO - Successfully scraped 5488 characters from https://wearecatalyst.org/programmes/invent/
+2025-07-23 00:25:09,897 - scraper.web_scraper - INFO - Static scraping successful and content appears sufficient
+2025-07-23 00:25:09,898 - __main__ - INFO - Scraping results saved to input\INVENT\competition_info
+2025-07-23 00:25:09,898 - __main__ - INFO -  Scraping completed successfully
